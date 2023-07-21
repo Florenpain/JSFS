@@ -22,17 +22,21 @@ Dans notre cas, du côté du client, cela se traduit par la mise à jour, après
 
 ## TP3
 
-[Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/toy-mongo.html)
+[Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/sellyours.html)
 
+Ce projet est une application qui permet à ses utilisateurs de vendre leurs objets et d'acheter les objets mis en vente par les autres utilisateurs. Le fonctionnement de l'application doit être celui d'une application en page unique (single page application), c'est-à-dire sans rechargement complet de la page pour la modifier lors des interactions de l'utilisateur avec l'application.
 
-Ce projet est une application (très rudimentaire) pour gérer une todo list à partir des données stockées dans une base de données. 
-Dans cette application on visualise la liste des tâches et on peut créer des nouvelles tâches ou en supprimer.
+Les utilisateurs sont simplement identifiés par leur nom et la somme d'argent dont il dispose. Cette somme d'argent à une valeur par défaut à la création d'un utilisateur.
+Les objets mis en vente sont définis par une description et un prix de vente. Chaque objet est mis en vente par un utilisateur, l'information sur cet utilisateur est stockée dans l'objet, sous la forme de l'id de cet utilisateur.
 
-Ce projet permet de prendre en main MongoDB :
+## TP4
 
-    - établir la connexion entre le serveur http et le serveur de base de données,
-    - établir un schéma de données simple et générer son modèle, 
-    côté serveur, construire quelques interactions simples avec le serveur de base de données en installant une interface type API REST et, côté client, faire des requêtes asynchrones vers vette API.
+[Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/pong.html)
 
-L'application est mise à disposition au travers d'une page HTML qui fonctionne en mode single page application : les opérations de création ou de suppression d'une tâche ne donne pas lieu à un rechargement de la page. Les interactions entre l'application (la page client) et le serveur se font à l'aide de requêtes asynchrones (fetch).
+Ce projet est une version simplifiée de l'historique jeu Pong. Le jeu se joue à deux joueurs, chacun sur un navigateur différent. Le jeu se joue sur une page web, et les deux joueurs doivent se connecter à cette page pour pouvoir jouer. Le jeu se joue en temps réel, c'est-à-dire que les deux joueurs voient la même chose sur leur écran, et que les actions de l'un des joueurs sont visibles immédiatement par l'autre joueur.
 
+## TP5
+
+[Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/starship.html)
+
+Ce projet un jeu vidéo simple dans lequel le joueur contrôle à l'aide du clavier le déplacement vertical d'un vaisseau situé sur la gauche de l'écran. Des soucoupes volantes arrivent de la droite de l'écran et le joueur doit les détruire en leur tirant dessus. A chaque tir réussi le joueur marque des points, à l'inverse si un vaisseau parvient à passer sans être détruit, le joueur perd des points.
