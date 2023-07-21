@@ -1,0 +1,15 @@
+{
+  "name": "chartio",
+  "version": "1.0.0",
+  "description": "prise en main de socket.io avec Chart.js",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Florentin",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  }
+}
