@@ -14,10 +14,8 @@ Ce dépôt contient les fichiers des TPs réalisés dans le cadre de l'UE "Javas
 
 [Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/toy-server.html)
 
-##### Dans ce tp les objectifs sont nombreux , à savoir :
-    - Revoir la syntaxe Javascript.
-    - Se familiariser avec Node.js.
-    - Et enfin l'objectif principal içi, est de réaliser avec Node.js un petit serveur web qui gère un nombre limité de routes et fournit des réponses simples sous la forme de code HTML ou JSON.
+Le projet consiste en un petit serveur web, à l'aide de NodeJS, qui gère un nombre limité de routes et fournit des réponses simples sous la forme de code HTML ou JSON.
+La gestion du serveur est entièrement réalisée à la main (c'est-à-dire sans passer par un framework tel que Express).
 
 ## TP2
 
@@ -26,16 +24,6 @@ Ce dépôt contient les fichiers des TPs réalisés dans le cadre de l'UE "Javas
 - tapez "nodemon" puis entrez (afin de mettre en route le serveur)
 - Ouvrez votre navigateur web et rendez-vous à cette adresse URL : "http://localhost:8080/public/chartio.html"
 - Ouvrez la console du navigateur pour visualiser les messages reçus par le client.
-
-#### Question 5 , 6
-
-Pour envoyer à tous les clients le meme message,
-il suffit de créer un interval qui emit à partir de l'io,
-et qui va donc envoyer à chaque client le même nombre au même moment .
-Si on veut que chaque client recoivent un nombre différent à un moment différent,
-il faut créer l'interval pour chaque client et la fonction associé envoie seulemtn à ce cleint.
-Donc on créer une map qui associe son id à un interval et si il se deconnecte,
-on clear son interval.
 
 ## TP3
 
