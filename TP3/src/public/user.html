@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>user profile</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/styleuser.css"/>
+
+  <script src="../javascripts/user.client.js" defer="true"/></script>
+</head>
+
+<body>
+
+  
+
+  <div id="userdata">
+	<div>
+		<h2 id="nomutilisateur"> </h2>
+		<h3 id="money">0</h3>
+	</div>
+		<div id="controls">
+		<div>
+			<label for="username">Nom
+			<input type="text" placeholder="nom" value="" id="username"/>
+			</label>
+		</div>
+		<button id="update">update</button>
+		<button id="logout">logout</button>
+	</div>  
+  </div>
+
+	<div id="action">
+		<div>
+			<div>
+				<button id="creation">Créer un objet</button>
+				<input type="text" placeholder="description" value="" id="description"/>
+				<input type="number" placeholder="prix" value="" id="prix"/>
+				
+			</div>
+			<div>
+				<div>
+					<h3>Objets en vente </h3>
+					<button id="updateobjet">Rafraichir</button>
+					<table id="objetsliste"></table>
+				</div>
+				<div>
+					<h3>Vos Objets </h3>
+					<button id="userobjet">Rafraichir</button>
+					<table id="userobjetsliste"></table>
+				</div>
+			</div>
+		</div>
+			<h3 id="message"></h3>
+		
+	</div>
+
+
+
+</body>
+
+</html>

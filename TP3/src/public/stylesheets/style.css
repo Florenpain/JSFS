@@ -1,0 +1,46 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*/
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+  width : 280px;
+  margin : auto;
+  padding : 2px;
+  text-align :center;
+}
+
+div label {
+  padding : 7px;
+}
+input {
+  text-align :center;
+}
+
+button {
+  padding : 3px;
+  width : 100px;
+  margin : 0px 5px;
+  font-weight : bold;
+}
+
+#userdata {
+  background-color : #DDD;
+}
+#userdata div{
+  text-align : right;
+  margin : 2px;
+}
+#controls {
+  margin-top : 10px;
+}
