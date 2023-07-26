@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Pong</title>
+	<meta name="author" content="Florentin Bugnon"/>
+
+	<link rel="stylesheet" type="text/css" href="./style/style.css"/>
+
+	<script src="./scripts/pong.js" type="module"></script>
+	<script src="../dist/scripts/bundle.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+	<h1 id="player"></h1>
+	<canvas id="field" width="800" height="600"></canvas>
+	<div id="controls">
+		<h2 id="left">0</h2>
+  		<input id="start" type="button" value="Play"></input>
+		<h2 id="right">0</h2>
+		<h4 id="message"></h4>
+	</div>
+</body>
+
+</html>

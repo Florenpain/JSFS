@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev-server": "webpack serve"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  }
+}

@@ -1,0 +1,64 @@
+html {
+  background-color : rgba(0,0,1,1);
+}
+#field {
+    display : block;
+    margin : auto;
+    background-color: white;
+    border : 10px solid black;
+}
+
+h1 {
+  color : white;
+}
+
+div#control {
+  text-align : center;
+  margin : 10px;
+}
+
+button {
+  font-size : 40px;
+}
+
+span#score{
+  display : inline-block;
+  width : 100px;
+  font-size : 30px;
+  text-align : right;
+  background-color : white;
+  padding : 4px;
+  margin : 4px;
+}
+
+#controls>div{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  margin : 20px auto;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+#controls input {
+  font-size : 32px;
+}
+
+h4{
+  padding: 0 100px 0 100px;
+  color:white;
+  font-size:32px;
+}
+
+
+h2{
+  padding: 0 100px 0 100px;
+  color:white;
+  font-size:35px;
+}
