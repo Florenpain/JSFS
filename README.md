@@ -34,9 +34,3 @@ Les objets mis en vente sont définis par une description et un prix de vente. C
 [Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/pong.html)
 
 Ce projet est une version simplifiée de l'historique jeu Pong. Le jeu se joue à deux joueurs, chacun sur un navigateur différent. Le jeu se joue sur une page web, et les deux joueurs doivent se connecter à cette page pour pouvoir jouer. Le jeu se joue en temps réel, c'est-à-dire que les deux joueurs voient la même chose sur leur écran, et que les actions de l'un des joueurs sont visibles immédiatement par l'autre joueur.
-
-## TP5
-
-[Lien du sujet](https://www.fil.univ-lille.fr/~routier/enseignement/licence/jsfs/tdtp/starship.html)
-
-Ce projet un jeu vidéo simple dans lequel le joueur contrôle à l'aide du clavier le déplacement vertical d'un vaisseau situé sur la gauche de l'écran. Des soucoupes volantes arrivent de la droite de l'écran et le joueur doit les détruire en leur tirant dessus. A chaque tir réussi le joueur marque des points, à l'inverse si un vaisseau parvient à passer sans être détruit, le joueur perd des points.
